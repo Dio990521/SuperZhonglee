@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3458798565891730371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3458798565891730370}
+  - component: {fileID: 7740746065514153326}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3458798565891730370
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3458798565891730371}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.8016768, y: -0.4098131, z: 2.7966526}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7740746065514153326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3458798565891730371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52accdfd49248ba48b748cd7fc5b4ef2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  savePoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  magicBlocks: []
+  activeSavePointIndex: -1
+  restartPos: {x: -58.7, y: -11.14, z: 0}
+  player: {fileID: 0}
+  isColumnSkillOn: 0
+  isBombSkillOn: 0
+  isCameraY: 0
+  initialLives: 1
+  cameraMinX: -46.7
+  cameraMaxX: 37.67
+  cameraMinY: -49.96
+  cameraMaxY: -6
+  isJumpMachine: 0
+  columnSkillEnhanced: 0
+  isBossDown: 0

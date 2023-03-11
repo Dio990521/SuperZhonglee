@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - MagicMushroom
+  - Koopa1
+  - Stab
+  - JumpMachine
+  - Bomb
+  - FireEnemy
+  - bullet
+  - dialogueWindow
+  - Mario
+  - BossSpawner
+  - Hp
+  - BossPipe
+  - GameManager
+  - JumpMachine2
+  - Column
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Player
+  - Enemy
+  - PowerUp
+  - Shell
+  - Bomb
+  - Wall
+  - Deadzone
+  - Goomba
+  - Fireball
+  - switch
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3258165669
+    locked: 0
